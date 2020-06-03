@@ -1,0 +1,6 @@
+query books($title: String){
+    findBooks(title:$title){
+        title
+        author
+    }
+}
